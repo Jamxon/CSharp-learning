@@ -2,3 +2,59 @@ bin/
 obj/
 .idea/
 .vscode/
+=======
+# Build va bin/obj papkalarini e'tiborsiz qoldirish
+bin/
+obj/
+
+# Rider konfiguratsiyasi
+.idea/
+*.sln.iml
+
+# Visual Studio konfiguratsiyasi (agar kerak bo‘lsa)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet paketlari
+*.nupkg
+*.snupkg
+packages/
+
+# Resharper fayllari
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code konfiguratsiyasi
+.vscode/
+
+# Temporary fayllar va loglar
+*.log
+*.tlog
+*.cache
+*.dbmdl
+
+# Publish fayllari
+publish/
+
+# DLL, PDB, exe va app fayllari
+*.dll
+*.pdb
+*.exe
+*.app
+*.apphost
+
+# SourceLink
+*.sourcelink.json
+
+# Runtime fayllari
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+
+# Test coverage
+coverage/
+*.coverage
+*.coveragexml
+>>>>>>> 8e7ebf6cf2044360e89a2739c12a6cc04d979be0
